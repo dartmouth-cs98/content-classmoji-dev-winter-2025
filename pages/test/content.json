@@ -2,11 +2,13 @@
   "blocks": [
     {
       "id": "p1",
-      "type": "paragraph",
+      "type": "heading",
       "props": {
         "backgroundColor": "default",
         "textColor": "default",
-        "textAlignment": "left"
+        "textAlignment": "left",
+        "level": 1,
+        "isToggleable": false
       },
       "content": [
         {
