@@ -4,8 +4,25 @@
       "id": "p1",
       "type": "paragraph",
       "props": {
-        "textColor": "default",
         "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "test test",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "435b9c22-dd2b-4f83-93ee-90415aa1b9ac",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
         "textAlignment": "left"
       },
       "content": [],
