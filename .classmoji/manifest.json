@@ -1,0 +1,34 @@
+{
+  "repositories": {
+    "6592a0a8-e286-4873-92ea-f15cef127fb5": {
+      "pages": [],
+      "slides": [],
+      "assignments": {
+        "63c770ec-a9ed-4fd4-9d47-a37ebcdde2e6": {
+          "pages": [],
+          "slides": []
+        }
+      }
+    },
+    "d950322d-5fd6-457e-880e-5ab738341cdd": {
+      "pages": [],
+      "slides": [],
+      "assignments": {
+        "9e74b07a-be29-4b53-8b96-6aba6a9af7ca": {
+          "pages": [],
+          "slides": []
+        },
+        "a8b8ecfc-9c9e-43ec-8334-f76ea0cb6359": {
+          "pages": [],
+          "slides": []
+        }
+      }
+    }
+  },
+  "general": {
+    "pages": [
+      "test"
+    ],
+    "slides": []
+  }
+}
