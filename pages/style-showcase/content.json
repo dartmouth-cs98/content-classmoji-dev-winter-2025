@@ -1,0 +1,1112 @@
+{
+  "blocks": [
+    {
+      "id": "sc-001",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 1,
+        "isToggleable": false
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Git Branching Basics",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-002",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "A branch lets you work on a feature or a fix without touching the code your teammates depend on. This page is a short, practical guide: ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "what branches are",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ", how to name them, and the handful of commands you will use every day. For the full story, see the ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://git-scm.com/book",
+          "content": [
+            {
+              "type": "text",
+              "text": "Pro Git book",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ".",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-003",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Why branch?",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-004",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Every project has a stable line of work, usually called ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "main",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". Branching keeps experiments away from it:",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-005",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Isolation",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — a half-finished feature never breaks the build for everyone else",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-006",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Review",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — a pull request compares your branch with ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "main",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " so teammates see exactly what changed",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-007",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Safety",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — if an idea does not work out, delete the branch and nothing is lost",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-008",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Branches are cheap in Git: creating one copies nothing, it only adds a new pointer. Make them freely, and delete them when you are done.",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-009",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Naming conventions",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-010",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Short, lowercase and descriptive. Most teams prefix the branch with its purpose:",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-011",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Start with a type: ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "feature/",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ", ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "fix/",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " or ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "docs/",
+          "styles": {
+            "code": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sc-012",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Describe the work, separated by hyphens: ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "feature/login-form",
+          "styles": {
+            "code": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sc-015",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [
+        {
+          "id": "sc-013",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "children": [],
+          "content": [
+            {
+              "type": "text",
+              "text": "Good: ",
+              "styles": {}
+            },
+            {
+              "type": "text",
+              "text": "fix/123-null-avatar",
+              "styles": {
+                "code": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "sc-014",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "children": [],
+          "content": [
+            {
+              "type": "text",
+              "text": "Avoid: ",
+              "styles": {}
+            },
+            {
+              "type": "text",
+              "text": "my-branch",
+              "styles": {
+                "code": true
+              }
+            },
+            {
+              "type": "text",
+              "text": " or ",
+              "styles": {}
+            },
+            {
+              "type": "text",
+              "text": "test2",
+              "styles": {
+                "code": true
+              }
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "type": "text",
+          "text": "Keep it short enough to type, and include an issue number if you have one",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-016",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Heads up: protect main",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-017",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Never commit straight to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "main",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " on a team project. Open a pull request instead, so that a teammate reviews the change before it lands.",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-018",
+      "type": "quote",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "A branch in Git is simply a lightweight movable pointer to one of these commits.",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "  — Pro Git",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-019",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Common commands",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-020",
+      "type": "table",
+      "props": {
+        "textColor": "default"
+      },
+      "children": [],
+      "content": {
+        "type": "tableContent",
+        "columnWidths": [
+          null,
+          null,
+          null
+        ],
+        "headerRows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Command",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "What it does",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Example",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "git switch -c",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Create a branch and switch to it",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "git switch -c feature/login",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "git switch",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Move to an existing branch",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "git switch main",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "git branch",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "List local branches",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "git branch --list",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "git merge",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Bring another branch into this one",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "git merge feature/login",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "git branch -d",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Delete a merged branch",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "git branch -d feature/login",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sc-021",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "A typical session",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-022",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Create the branch, commit your work, then push it and open a pull request:",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-023",
+      "type": "codeBlock",
+      "props": {
+        "language": "bash",
+        "copyable": true
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "git switch -c feature/login-form\n# ...edit files...\ngit add .\ngit commit -m \"Add login form\"\ngit push -u origin feature/login-form",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-024",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Small helpers are easier to review when each commit does one thing. Here is a function that is worth its own commit:",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-025",
+      "type": "codeBlock",
+      "props": {
+        "language": "javascript",
+        "copyable": true
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "function branchName(type, title, issue) {\n  const slug = title.toLowerCase().trim().replace(/\\s+/g, '-');\n  return issue ? `${type}/${issue}-${slug}` : `${type}/${slug}`;\n}",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-026",
+      "type": "divider",
+      "props": {},
+      "children": []
+    },
+    {
+      "id": "sc-027",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 4,
+        "isToggleable": false
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Before you open a pull request",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-028",
+      "type": "checkListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "checked": true
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "My branch is up to date with ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "main",
+          "styles": {
+            "code": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sc-029",
+      "type": "checkListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "checked": true
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "The project builds and the tests pass",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-030",
+      "type": "checkListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "checked": false
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "I have re-read my own diff once",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-031",
+      "type": "checkListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "checked": false
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "The description says what changed and why",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-032",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 5,
+        "isToggleable": false
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Rule of thumb",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-033",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "If you cannot describe the branch in a sentence, it is probably doing too much. Split it.",
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "sc-034",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 6,
+        "isToggleable": false
+      },
+      "children": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "Last updated November 2026",
+          "styles": {}
+        }
+      ]
+    }
+  ]
+}

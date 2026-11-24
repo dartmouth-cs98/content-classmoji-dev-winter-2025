@@ -27,7 +27,8 @@
   },
   "general": {
     "pages": [
-      "test"
+      "test",
+      "style-showcase"
     ],
     "slides": []
   }
