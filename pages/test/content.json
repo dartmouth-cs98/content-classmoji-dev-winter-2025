@@ -1,26 +1,1090 @@
 {
   "blocks": [
     {
-      "id": "p1",
-      "type": "heading",
+      "id": "ff55f2c6-7db3-4add-a035-9055fbcc92a0",
+      "type": "paragraph",
       "props": {
         "backgroundColor": "default",
         "textColor": "default",
-        "textAlignment": "left",
-        "level": 2,
-        "isToggleable": false
+        "textAlignment": "left"
       },
       "content": [
         {
           "type": "text",
-          "text": "test test",
+          "text": "You've built a grayscale prototype. Now it's time to refine it into a polished, high-fidelity design.",
           "styles": {}
         }
       ],
       "children": []
     },
     {
-      "id": "435b9c22-dd2b-4f83-93ee-90415aa1b9ac",
+      "id": "991a95c0-d72d-4889-868b-5c9cccfbdcad",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 1,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Step 1: Refine Based on Feedback",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a467876b-a4c7-45dd-a476-f9f1a18c38ce",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Before making finer-scale UI changes, address the usability issues you discovered in testing. ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Create a new page called Grayscales v2",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " in Figma, copy-paste the version of Grayscales that you tested, and then make any changes needed.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "04b45cce-25e4-4c7b-b3b1-bf78f5ea830a",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Fix the flows",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Rework any paths that confused users",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a35df39d-0ca7-4cff-afb7-98c7dda15a30",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Add missing states",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Empty states, loading states, error messages, confirmation screens",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "38c2c931-e340-497b-819e-6baf0fe04b6d",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Clarify text & nav",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Update labels, buttons, and copy that caused confusion",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6c49411c-3ed2-4170-8ceb-5d008b098de3",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Simplify where needed",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — If users struggled, maybe there's too much on the screen",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7eae7654-2fb7-4e5a-84d6-080be7734e63",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 1,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Step 2: Define Your Visual Direction",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a210abb3-c1fd-4b28-9a49-d65210e104e8",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Now that the UX is validated, it's time to define how your product should ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "feel",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Create a new Page called Mood Board",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " in your Figma file.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "cb5623c4-a686-496d-80b3-7b2dedc54793",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Choose a UI Style",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "55dfa2e6-363b-46f7-86d5-e27279334fd3",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "What personality fits your product and users?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e59e83af-ef1a-4759-890c-53060436484d",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Clean/Minimal",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Lots of white space, simple typography, subtle colors",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "460e5cdd-9fee-451e-ab89-2d260bce43b5",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Friendly/Casual",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Rounded corners, warm colors, playful elements",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "35d10c74-5fd5-467b-a19e-5d241c9a9154",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Professional/Formal",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Sharp edges, muted palette, structured layouts",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "454b26de-67e4-4839-a6eb-32ae03b46528",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Bold/Edgy",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — High contrast, unconventional layouts, strong typography",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "447be9a3-8896-445d-96e5-542d4bcf1af3",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Build Your Mood Board",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b382f780-6e34-4e2b-a9a1-38b33946016a",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Find 5-10 screenshots of apps or websites that capture the feeling you want",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "47aa2f63-6355-4563-bc03-bd82a60955f6",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Note what you like about each in a Figma comment — is it the color palette? The typography? The spacing?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9c10d746-4c77-4af1-b2b7-5df86838bfd6",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Look for patterns across your inspiration",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5ed7f5ad-52c1-4c4c-afda-92d8cd8cc2b7",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 1,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Step 3: Apply Visual Polish",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "cdb38ffc-35ea-423f-afbc-6f1e1433fd28",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Transform your grayscale prototype into high-fidelity mockups using your visual direction. Create a new Page called ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "UI Design",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " in your Figma file to work from.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "29702e28-50bb-43f0-9a20-88584c3b6827",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Color & Typography",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5a67cc06-a7e8-45e1-9a1a-71608e3f6a92",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Choose a primary color and 1-2 accent colors that fit your style",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "803fc464-0e33-476d-b0cf-49d23e4b0cd6",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Pick a font pairing (one for headings, one for body — or just one versatile font)",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9240a183-c8ee-49a5-9326-a03ea99bbc4f",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Apply consistently across all screens",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7d77ebda-d189-4c52-b866-28b7d350ae43",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Visual Hierarchy",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8cdb787a-351d-4fe4-a6ae-1219e2662e60",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Hierarchy",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Is it clear what's most important on each screen?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "774b5a35-90fc-4f7e-89b6-7769e9481d08",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Alignment",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Are elements lined up properly?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8dae43be-f82c-4b3e-b5f4-e846286b2be6",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Spacing",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Is there consistent padding and margins?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7b410d5b-f48c-4a87-9046-261c956e4088",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Touch targets",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Are buttons big enough (at least 44x44pt)? Are they spaced apart from other tappable elements?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3407cbe1-3109-4347-a78c-e3183223b815",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Consistency Check",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d23c2fff-98ec-4ea6-9cd3-982d303e2402",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Do similar elements look the same across screens?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e6a52fdf-8134-4e7d-9e9e-ae298655e4cf",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Are your buttons, cards, and inputs styled consistently?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "306a2870-0cc9-4778-8632-e88f8c8068c4",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Does navigation work the same way throughout?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1a98090d-fc79-4c2a-b74e-38f5bf1321dd",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 1,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Step 4: Team Name & Logo",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "385ad200-cf98-412f-8a75-bfe5c9332523",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Create a Logo page",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " in your Figma file. Your logo doesn't need to be complex—simple and clear beats elaborate and confusing.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b1bff94e-16dd-4b9c-9da2-414bfed4b2f5",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "There are ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://99designs.ca/blog/tips/types-of-logos/",
+          "content": [
+            {
+              "type": "text",
+              "text": "7 different types of logos",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "—wordmarks and lettermarks are often easiest to create well",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d90b8a3f-75f4-42f6-9fe1-0e9ff4baaa78",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Try writing your team name in a distinctive font, then customize it:",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "2f7ddeeb-b34d-4931-874c-94f550e51026",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Right-click the text → ",
+              "styles": {}
+            },
+            {
+              "type": "text",
+              "text": "Outline Stroke",
+              "styles": {
+                "bold": true
+              }
+            },
+            {
+              "type": "text",
+              "text": " to edit letter shapes",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "a7fb6cf3-1b83-489a-8c7c-43925a35a40b",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Adjust colors, add simple shapes, experiment",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "176ca293-7a3e-449d-880d-7e8e5fd0f6cd",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-26f/main/pages/ui-design-mockups/assets/figma-outline-1767623968699.gif",
+        "caption": "",
+        "showPreview": true
+      },
+      "children": []
+    },
+    {
+      "id": "07d555a1-1a95-4e82-b7be-afd09a4b8efc",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 1,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Design is Ongoing",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5c3f7aa6-0eaa-4f0c-aeb1-19f6ff7c3f68",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This assignment is your first pass at high-fidelity design, but design work continues throughout the project.",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f7f01864-4cf1-4957-b5a9-b2c06bd0ed79",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "You'll get feedback from instructors, TAs, and classmates via Figma comments. Respond to all comments—either by making changes or explaining your reasoning. Resolve comments once you've addressed them.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a99944fb-8a17-4c2e-97d0-e13278546516",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "As you build, you'll discover new edge cases and needed screens. Keep your Figma updated as the source of truth for how things should look.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "57031a5b-a402-4fcf-a054-e53a9f88e017",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 1,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "722707d0-d238-424d-bb7b-2083476838c4",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "In your same Figma file as the Grayscale prototypes:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a4ec9ee2-6bed-4ced-a5bb-3b0cdee9688e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Mood Board page",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Your visual inspiration and style direction",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "70de131d-bf37-45e6-b51b-762143d32bac",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Grayscales v2 page",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Grayscales revised based on feedback from user testing",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9c2730cd-dc89-4c87-a7ea-da3762387f1d",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "UI Design page",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — High-fidelity screens with working prototype links",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a2c66cae-cfb8-435c-b85e-1c49cfc45404",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Logo page",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Team name and logo",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3b36ec4c-c000-485b-97df-4b22e4589bf0",
       "type": "paragraph",
       "props": {
         "backgroundColor": "default",
