@@ -871,19 +871,6 @@
       ]
     },
     {
-      "id": "176ca293-7a3e-449d-880d-7e8e5fd0f6cd",
-      "type": "image",
-      "props": {
-        "textAlignment": "left",
-        "backgroundColor": "default",
-        "name": "",
-        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-26f/main/pages/ui-design-mockups/assets/figma-outline-1767623968699.gif",
-        "caption": "",
-        "showPreview": true
-      },
-      "children": []
-    },
-    {
       "id": "07d555a1-1a95-4e82-b7be-afd09a4b8efc",
       "type": "heading",
       "props": {
