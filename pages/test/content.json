@@ -1085,5 +1085,9 @@
       "content": [],
       "children": []
     }
-  ]
+  ],
+  "coverImage": {
+    "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-classmoji-dev-winter-2025/main/pages/test/assets/1795625806274-8fdd38e5380156785cc4f427fcfd4d7c.png",
+    "position": 50
+  }
 }
