@@ -10,14 +10,14 @@
         "level": 1,
         "isToggleable": false
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "Git Branching Basics",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-002",
@@ -25,13 +25,27 @@
       "props": {
         "backgroundColor": "default",
         "textColor": "default",
-        "textAlignment": "left"
+        "textAlignment": "right"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
-          "text": "A branch lets you work on a feature or a fix without touching the code your teammates depend on. This page is a short, practical guide: ",
+          "text": "A ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "branch",
+          "styles": {
+            "bold": true,
+            "italic": true,
+            "underline": true,
+            "strike": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " lets you work on a feature or a fix without touching the code your teammates depend on. This page is a short, practical guide: ",
           "styles": {}
         },
         {
@@ -62,7 +76,8 @@
           "text": ".",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-003",
@@ -74,14 +89,14 @@
         "level": 2,
         "isToggleable": false
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "Why branch?",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-004",
@@ -91,7 +106,6 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
@@ -110,7 +124,8 @@
           "text": ". Branching keeps experiments away from it:",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-005",
@@ -120,7 +135,6 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
@@ -134,7 +148,8 @@
           "text": " — a half-finished feature never breaks the build for everyone else",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-006",
@@ -144,7 +159,6 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
@@ -170,7 +184,8 @@
           "text": " so teammates see exactly what changed",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-007",
@@ -180,7 +195,6 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
@@ -194,7 +208,8 @@
           "text": " — if an idea does not work out, delete the branch and nothing is lost",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-008",
@@ -204,14 +219,14 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "Branches are cheap in Git: creating one copies nothing, it only adds a new pointer. Make them freely, and delete them when you are done.",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-009",
@@ -223,14 +238,14 @@
         "level": 3,
         "isToggleable": false
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "Naming conventions",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-010",
@@ -240,14 +255,14 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "Short, lowercase and descriptive. Most teams prefix the branch with its purpose:",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-011",
@@ -257,7 +272,6 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
@@ -295,7 +309,8 @@
             "code": true
           }
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-012",
@@ -305,7 +320,6 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
@@ -319,7 +333,8 @@
             "code": true
           }
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-015",
@@ -329,6 +344,13 @@
         "textColor": "default",
         "textAlignment": "left"
       },
+      "content": [
+        {
+          "type": "text",
+          "text": "Keep it short enough to type, and include an issue number if you have one",
+          "styles": {}
+        }
+      ],
       "children": [
         {
           "id": "sc-013",
@@ -338,7 +360,6 @@
             "textColor": "default",
             "textAlignment": "left"
           },
-          "children": [],
           "content": [
             {
               "type": "text",
@@ -352,7 +373,8 @@
                 "code": true
               }
             }
-          ]
+          ],
+          "children": []
         },
         {
           "id": "sc-014",
@@ -362,7 +384,6 @@
             "textColor": "default",
             "textAlignment": "left"
           },
-          "children": [],
           "content": [
             {
               "type": "text",
@@ -388,14 +409,8 @@
                 "code": true
               }
             }
-          ]
-        }
-      ],
-      "content": [
-        {
-          "type": "text",
-          "text": "Keep it short enough to type, and include an issue number if you have one",
-          "styles": {}
+          ],
+          "children": []
         }
       ]
     },
@@ -426,7 +441,6 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
@@ -445,7 +459,8 @@
           "text": " on a team project. Open a pull request instead, so that a teammate reviews the change before it lands.",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-018",
@@ -454,7 +469,6 @@
         "backgroundColor": "default",
         "textColor": "default"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
@@ -468,7 +482,8 @@
           "text": "  — Pro Git",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-019",
@@ -480,14 +495,14 @@
         "level": 2,
         "isToggleable": false
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "Common commands",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-020",
@@ -495,7 +510,6 @@
       "props": {
         "textColor": "default"
       },
-      "children": [],
       "content": {
         "type": "tableContent",
         "columnWidths": [
@@ -862,7 +876,8 @@
             ]
           }
         ]
-      }
+      },
+      "children": []
     },
     {
       "id": "sc-021",
@@ -874,14 +889,14 @@
         "level": 3,
         "isToggleable": false
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "A typical session",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-022",
@@ -891,14 +906,14 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "Create the branch, commit your work, then push it and open a pull request:",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-023",
@@ -907,14 +922,14 @@
         "language": "bash",
         "copyable": true
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "git switch -c feature/login-form\n# ...edit files...\ngit add .\ngit commit -m \"Add login form\"\ngit push -u origin feature/login-form",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-024",
@@ -924,14 +939,14 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "Small helpers are easier to review when each commit does one thing. Here is a function that is worth its own commit:",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-025",
@@ -940,14 +955,14 @@
         "language": "javascript",
         "copyable": true
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "function branchName(type, title, issue) {\n  const slug = title.toLowerCase().trim().replace(/\\s+/g, '-');\n  return issue ? `${type}/${issue}-${slug}` : `${type}/${slug}`;\n}",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-026",
@@ -965,14 +980,14 @@
         "level": 4,
         "isToggleable": false
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "Before you open a pull request",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-028",
@@ -983,7 +998,6 @@
         "textAlignment": "left",
         "checked": true
       },
-      "children": [],
       "content": [
         {
           "type": "text",
@@ -997,7 +1011,8 @@
             "code": true
           }
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-029",
@@ -1008,14 +1023,14 @@
         "textAlignment": "left",
         "checked": true
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "The project builds and the tests pass",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-030",
@@ -1026,14 +1041,14 @@
         "textAlignment": "left",
         "checked": false
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "I have re-read my own diff once",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-031",
@@ -1044,14 +1059,14 @@
         "textAlignment": "left",
         "checked": false
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "The description says what changed and why",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-032",
@@ -1063,14 +1078,14 @@
         "level": 5,
         "isToggleable": false
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "Rule of thumb",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-033",
@@ -1080,14 +1095,14 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "If you cannot describe the branch in a sentence, it is probably doing too much. Split it.",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-034",
@@ -1099,14 +1114,14 @@
         "level": 6,
         "isToggleable": false
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "Last updated November 2026",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     }
   ]
 }
