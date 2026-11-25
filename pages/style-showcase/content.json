@@ -37,7 +37,6 @@
           "type": "text",
           "text": "branch",
           "styles": {
-            "bold": true,
             "italic": true,
             "underline": true,
             "strike": true
