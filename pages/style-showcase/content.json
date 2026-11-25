@@ -403,20 +403,20 @@
       "id": "sc-016",
       "type": "heading",
       "props": {
-        "backgroundColor": "blue",
+        "backgroundColor": "default",
         "textColor": "default",
         "textAlignment": "left",
         "level": 2,
         "isToggleable": false
       },
-      "children": [],
       "content": [
         {
           "type": "text",
           "text": "Heads up: protect main",
           "styles": {}
         }
-      ]
+      ],
+      "children": []
     },
     {
       "id": "sc-017",
