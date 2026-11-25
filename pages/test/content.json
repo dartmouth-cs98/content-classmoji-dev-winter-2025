@@ -230,7 +230,7 @@
         "backgroundColor": "default",
         "textColor": "default",
         "textAlignment": "left",
-        "level": 3,
+        "level": 2,
         "isToggleable": false
       },
       "content": [
@@ -362,7 +362,7 @@
         "backgroundColor": "default",
         "textColor": "default",
         "textAlignment": "left",
-        "level": 3,
+        "level": 2,
         "isToggleable": false
       },
       "content": [
@@ -481,7 +481,7 @@
         "backgroundColor": "default",
         "textColor": "default",
         "textAlignment": "left",
-        "level": 3,
+        "level": 2,
         "isToggleable": false
       },
       "content": [
@@ -551,7 +551,7 @@
         "backgroundColor": "default",
         "textColor": "default",
         "textAlignment": "left",
-        "level": 3,
+        "level": 2,
         "isToggleable": false
       },
       "content": [
@@ -666,7 +666,7 @@
         "backgroundColor": "default",
         "textColor": "default",
         "textAlignment": "left",
-        "level": 3,
+        "level": 2,
         "isToggleable": false
       },
       "content": [
