@@ -25,12 +25,13 @@
         "textColor": "default",
         "textAlignment": "left",
         "level": 1,
-        "isToggleable": false
+        "isToggleable": false,
+        "step": true
       },
       "content": [
         {
           "type": "text",
-          "text": "Step 1: Refine Based on Feedback",
+          "text": "Refine Based on Feedback",
           "styles": {}
         }
       ],
@@ -67,7 +68,7 @@
     },
     {
       "id": "04b45cce-25e4-4c7b-b3b1-bf78f5ea830a",
-      "type": "bulletListItem",
+      "type": "numberedListItem",
       "props": {
         "backgroundColor": "default",
         "textColor": "default",
@@ -91,7 +92,7 @@
     },
     {
       "id": "a35df39d-0ca7-4cff-afb7-98c7dda15a30",
-      "type": "bulletListItem",
+      "type": "numberedListItem",
       "props": {
         "backgroundColor": "default",
         "textColor": "default",
@@ -115,7 +116,7 @@
     },
     {
       "id": "38c2c931-e340-497b-819e-6baf0fe04b6d",
-      "type": "bulletListItem",
+      "type": "numberedListItem",
       "props": {
         "backgroundColor": "default",
         "textColor": "default",
@@ -139,7 +140,7 @@
     },
     {
       "id": "6c49411c-3ed2-4170-8ceb-5d008b098de3",
-      "type": "bulletListItem",
+      "type": "numberedListItem",
       "props": {
         "backgroundColor": "default",
         "textColor": "default",
@@ -169,12 +170,13 @@
         "textColor": "default",
         "textAlignment": "left",
         "level": 1,
-        "isToggleable": false
+        "isToggleable": false,
+        "step": true
       },
       "content": [
         {
           "type": "text",
-          "text": "Step 2: Define Your Visual Direction",
+          "text": "Define Your Visual Direction",
           "styles": {}
         }
       ],
@@ -431,12 +433,13 @@
         "textColor": "default",
         "textAlignment": "left",
         "level": 1,
-        "isToggleable": false
+        "isToggleable": false,
+        "step": true
       },
       "content": [
         {
           "type": "text",
-          "text": "Step 3: Apply Visual Polish",
+          "text": "Apply Visual Polish",
           "styles": {}
         }
       ],
@@ -734,12 +737,13 @@
         "textColor": "default",
         "textAlignment": "left",
         "level": 1,
-        "isToggleable": false
+        "isToggleable": false,
+        "step": true
       },
       "content": [
         {
           "type": "text",
-          "text": "Step 4: Team Name & Logo",
+          "text": "Team Name & Logo",
           "styles": {}
         }
       ],
